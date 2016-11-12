@@ -33,7 +33,7 @@ class LocalPolitics extends AbstractMigration
               ->addColumn('zip_code', 'integer')
               ->addColumn('city', 'string')
               ->addColumn('local_party_headquaters', 'string')
-              ->addColumn('contact_id', 'string')
+              ->addColumn('contact_id', 'int')
               ->addColumn('website', 'string')
               ->addColumn('party', 'string')
               ->addTimestamps()
